@@ -18,7 +18,7 @@ public class Vocabular {
         Vocabular.put("Beef", "Vită");
         Vocabular.put("Breed", "Rasă");
         System.out.println("English | Romanian");
-        System.out.println("__________________");
+        System.out.println("___________________");
         PrintVocabular(Vocabular);
     }
     private static void PrintVocabular(Map<String, String> Vocabular){

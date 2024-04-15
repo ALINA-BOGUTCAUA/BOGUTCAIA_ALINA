@@ -17,7 +17,7 @@ public class Main {
         System.out.println(Books);
         PrintIndexOfBooks(Books);
 
-        System.out.println("__________________");
+        System.out.println("___________________");
 
     }
 
