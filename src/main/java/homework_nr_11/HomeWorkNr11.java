@@ -38,7 +38,7 @@ public class HomeWorkNr11 {
                 new Person("Liza", "Turner", 22, false),
                 new Person("Lily", "Smith", 45, false)
         ));
-        System.out.println("------List of persons with age<30 and IsMale=False----- ");
+        System.out.println("------List of persons with age<30 and IsMale=False------- ");
         List<String> ListOfPersonAgeLess30AndIsMaleIsTrue = ListOfPersons.stream()
                 .filter(e -> e.getAge() < 30)
                 .filter(e -> !e.isMale())
