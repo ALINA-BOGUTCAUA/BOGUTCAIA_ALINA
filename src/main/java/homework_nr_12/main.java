@@ -27,7 +27,7 @@ public class main {
         System.out.println("Name of " +  m + " month is: " + month[i]);
     }
     public static void printFuelTypes(FuelTypes type){
-        if (type.liquidFuel){
+        if (type.isLiquidFuel()){
             System.out.println(type + " is liquid fuel");
         }
         else System.out.println(type + " isn't liquid fuel ");
