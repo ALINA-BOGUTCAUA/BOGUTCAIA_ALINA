@@ -1,7 +1,7 @@
 package homework_nr_17;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         Runnable r1 = ()->{
             String color = Contants.ANSI_RED;
             printLetters(color);
@@ -25,6 +25,7 @@ public class Main {
         t1.start();
         t2.start();
         t3.start();
+        t3.interrupt();
         t4.start();
 
     }
@@ -35,7 +36,7 @@ public class Main {
         }
 
     }
-    public static synchronized void  printLettersSleep(String color){
+    public static  void  printLettersSleep(String color){
         char ch;
         for (ch='A'; ch<='Z'; ch++){
             try {
